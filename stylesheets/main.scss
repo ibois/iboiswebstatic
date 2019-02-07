@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// colors
+$accent: #FF6969;
+$dark-base: rgb(44, 40, 43);
+$darker: rgba(0, 0, 0, 0.1);
+$font-color: #fff;
+
+// global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $font-color;
+$grey-darker: $font-color;
+$primary: $accent;
+$link: $accent;
+$white-bis: $darker;
+$background: $darker;
+$success: #20d86d;
+
+// component variables
+$body-background-color: $dark-base;
+
+// footer
+$footer-padding: 3rem 1.5rem 3rem;
+
+// navbar
+$navbar-background-color: $dark-base;
+$navbar-height: 4rem;
+
+@import "../assets/libraries/bulma-0.7.2/bulma.sass";
+
+.is-tiny {
+    font-size: 0.6rem;
+}
