@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+@import url("https://fonts.googleapis.com/css?family=Rubik");
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -296,7 +296,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 code,
@@ -8949,8 +8949,16 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+body {
+  min-height: 100vh;
+}
+
 .is-tiny {
   font-size: 0.6rem;
+}
+
+#winrate {
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

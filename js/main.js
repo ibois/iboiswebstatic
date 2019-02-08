@@ -8,8 +8,8 @@ $(function () {
         text: {
             autoStyleContainer: true
         },
-        from: { color: '#ff3a3a', width: 1 },
-        to: { color: '#20d86d', width: 7 },
+        from: { color: '#ff0000', width: 1 },
+        to: { color: '#ff6969', width: 7 },
         // Set default step function for all animate calls
         step: function (state, circle) {
             circle.path.setAttribute('stroke', state.color);
@@ -24,7 +24,7 @@ $(function () {
 
         }
     });
-    bar.text.style.fontSize = '4rem';
+    bar.text.style.fontSize = '3.5rem';
     bar.text.style.fontWeight = 'bold';
     bar.text.style.color = '#fff';
     bar.animate(1.0);

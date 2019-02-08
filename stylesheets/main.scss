@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
 
 // colors
 $accent: #FF6969;
@@ -10,7 +10,7 @@ $darker: rgba(0, 0, 0, 0.1);
 $font-color: #fff;
 
 // global variables
-$family-sans-serif: "Nunito", sans-serif;
+$family-sans-serif: "Rubik", sans-serif;
 $grey-dark: $font-color;
 $grey-darker: $font-color;
 $primary: $accent;
@@ -31,6 +31,16 @@ $navbar-height: 4rem;
 
 @import "../assets/libraries/bulma-0.7.2/bulma.sass";
 
+// CSS
+
+body {
+    min-height: 100vh;
+}
+
 .is-tiny {
     font-size: 0.6rem;
+}
+
+#winrate {
+    margin: 1rem;
 }
