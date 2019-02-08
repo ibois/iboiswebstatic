@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
 @import url("https://fonts.googleapis.com/css?family=Fahkwang");
 @import url("https://fonts.googleapis.com/css?family=Mukta");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -8991,6 +8992,11 @@ a:hover {
 
 #flict {
   font-family: "Mukta", sans-serif;
+}
+
+#buiii {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
