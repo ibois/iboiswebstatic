@@ -29,5 +29,6 @@ $(function () {
     bar.text.style.color = '#fff';
     bar.animate(1.0);
 
-    $('.title').addClass('hvr-grow');
+    // $('.title').addClass('hvr-grow');
+    // $('.progressbar-text').addClass('animated pulse infinite delay-2s')
 });
