@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <title>ibois</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="stylesheets\main.css">
 </head>
 
@@ -40,13 +41,9 @@
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column is-hidden-mobile"></div>
-
-                <div class="column is-two-thirds has-text-centered">
-                    <img class="animated zoomIn" src="assets\img\logo2.png" alt="ibois">
+                <div class="column has-text-centered animated zoomIn">
+                    <img class="hvr-grow-rotate" src="assets\img\logo2.png" alt="ibois">
                 </div>
-
-                <div class="column is-hidden-mobile"></div>
             </div>
 
             <div class="tile is-ancestor animated fadeIn">
@@ -59,7 +56,7 @@
                                     <p>
                                         ibois were founded in the "<strong>i</strong>" row at the "Lan2k18"
                                         lanparty in 2018.
-                                    <br>
+                                        <br>
                                         Since then they've stayed undefeated in multiple games
                                         maintaining their 100% winrate.*
                                     </p>
@@ -70,40 +67,62 @@
                             <article class="tile is-child notification">
                                 <p class="title">Aftermovie</p>
                                 <p class="subtitle">Lan2k18 Zeglingen</p>
-                                <iframe src="https://www.youtube.com/embed/DzlRakI4l6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <div class="content">
+                                    <iframe src="https://www.youtube.com/embed/DzlRakI4l6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
                             </article>
                         </div>
                     </div>
                     <div class="tile is-parent">
-                        <article class="tile is-child notification">
+                        <article class="tile is-child notification members">
                             <p class="title">Members</p>
                             <div class="content">
-                                <ol type="1">
-                                    <li>Coffee</li>
-                                    <li>Tea</li>
-                                    <li>Milk</li>
-                                    <li>Tea</li>
-                                    <li>Milk</li>
-                                    <li>Tea</li>
-                                    <li>Milk</li>
-                                    <li>Tea</li>
-                                    <li>Milk</li>
-                                    <li>Tea</li>
-                                    <li>Milk</li>
-                                </ol>
+                                <div class="columns">
+                                    <div class="column">
+                                        <a id="prekek" class="hvr-skew" href="https://steamcommunity.com/id/Prekek123-"
+                                            target="_blank">
+                                            Prekek
+                                        </a>
+                                    </div>
+                                    <div class="column">
+                                        <a id="flict" class="hvr-pop" href="https://steamcommunity.com/id/conflict3"
+                                            target="_blank">
+                                            Flict_
+                                        </a>
+                                    </div>
+                                    <div id="ok2094" class="column">
+                                        <a class="hvr-wobble-top" href="https://steamcommunity.com/id/hentaiisokay"
+                                            target="_blank">
+                                            ok2094
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="columns">
+                                    <div class="column">
+                                        <a id="baaaka" class="hvr-grow" href="https://steamcommunity.com/id/kawaiibaaaka"
+                                            target="_blank">
+                                            Baaaka
+                                        </a>
+                                    </div>
+                                    <div class="column">
+                                        <a id="buiii" class="" href="https://steamcommunity.com/profiles/76561198302589742"
+                                            target="_blank">
+                                            buiii
+                                        </a>
+                                    </div>
+                                    <div class="column">
+                                    </div>
+                                </div>
                             </div>
                         </article>
                     </div>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child notification">
+                        <p class="title">Winrate*</p>
                         <div class="content">
-                            <p class="title">Winrate*</p>
-                            <div id="winrate"></div>
-                            <div class="content">
-                                <!-- Content -->
-                            </div>
+                            <div id="winrate" class="animated pulse infinite delay-2s"></div>
                         </div>
                     </article>
                 </div>

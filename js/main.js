@@ -28,4 +28,6 @@ $(function () {
     bar.text.style.fontWeight = 'bold';
     bar.text.style.color = '#fff';
     bar.animate(1.0);
+
+    $('.title').addClass('hvr-grow');
 });

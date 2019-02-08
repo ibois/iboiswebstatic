@@ -1,5 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+@import url("https://fonts.googleapis.com/css?family=Fahkwang");
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -8953,12 +8956,36 @@ body {
   min-height: 100vh;
 }
 
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #FF6969 !important;
+}
+
+.members a {
+  font-size: 1.4rem;
+}
+
 .is-tiny {
   font-size: 0.6rem;
 }
 
 #winrate {
   margin: 1rem;
+}
+
+#prekek {
+  font-family: "Questrial", sans-serif;
+}
+
+#ok2094 {
+  font-family: "Fahkwang", sans-serif;
+}
+
+#baaaka {
+  font-family: "Titillium Web", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
