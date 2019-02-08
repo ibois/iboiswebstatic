@@ -4,7 +4,7 @@ $(function () {
         strokeWidth: 7,
         trailWidth: 1,
         easing: 'easeInOut',
-        duration: 1400,
+        duration: 2000,
         text: {
             autoStyleContainer: true
         },

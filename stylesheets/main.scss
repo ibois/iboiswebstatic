@@ -10,8 +10,8 @@
 
 // colors
 $accent: #FF6969;
-$dark-base: rgb(44, 40, 43);
-$darker: rgba(0, 0, 0, 0.1);
+$dark-base: rgb(20, 20, 20);
+$darker: rgba(0, 0, 0, 0.2);
 $font-color: #fff;
 
 // global variables
@@ -34,6 +34,7 @@ $footer-padding: 3rem 1.5rem 3rem;
 $navbar-background-color: $dark-base;
 $navbar-height: 4rem;
 
+// import bulma
 @import "../assets/libraries/bulma-0.7.2/bulma.sass";
 
 // CSS
