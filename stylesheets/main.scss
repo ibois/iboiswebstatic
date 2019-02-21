@@ -7,11 +7,12 @@
 @import url('https://fonts.googleapis.com/css?family=Fahkwang');
 @import url('https://fonts.googleapis.com/css?family=Mukta');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 // colors
 $accent: #FF6969;
-$dark-base: rgb(20, 20, 20);
-$darker: rgba(0, 0, 0, 0.2);
+$dark-base: rgb(25, 25, 25);
+$darker: rgba(0, 0, 0, 0.3);
 $font-color: #fff;
 
 // global variables
@@ -91,4 +92,9 @@ a:hover {
 #buiii {
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
+}
+
+#schriini {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
 }
