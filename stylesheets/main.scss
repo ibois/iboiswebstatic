@@ -37,7 +37,7 @@ $navbar-background-color: $dark-base;
 $navbar-height: 4rem;
 
 // import bulma
-@import "../assets/libraries/bulma-0.7.2/bulma.sass";
+@import "../lib/bulma-0.7.2/bulma.sass";
 
 // CSS
 
@@ -55,6 +55,10 @@ a:hover {
 
 .members a {
     font-size: 1.4rem;
+}
+
+.card {
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
 }
 
 .is-tiny {
