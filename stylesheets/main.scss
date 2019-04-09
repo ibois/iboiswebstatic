@@ -43,6 +43,9 @@ $navbar-height: 4rem;
 
 body {
     min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
 }
 
 a {
@@ -65,8 +68,20 @@ a:hover {
     font-size: 0.6rem;
 }
 
+.tournament-button {
+    position: fixed;
+    top: 10%;
+    right: 30%;
+    transform: rotate(-20deg);
+    z-index: 9999;
+}
+
 #winrate {
     margin: 1rem;
+}
+
+#sitzplan {
+    width: 600px;
 }
 
 // .notification {
